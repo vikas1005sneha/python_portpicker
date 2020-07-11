@@ -10,7 +10,7 @@ This module provides a pure Python `pick_unused_port()` function.
 It can also be called via the command line for use in shell scripts.
 
 If your code can accept a bound TCP socket rather than a port number consider
-using `socket.bind(('localhost', 0))` to bind atomically to an available port
+using `socket.bind(('localhost', 0))` to bind automically to an available port
 rather than using this library at all.
 
 There is a race condition between picking a port and your application code
